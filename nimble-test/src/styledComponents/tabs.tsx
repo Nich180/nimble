@@ -5,10 +5,6 @@ interface tabProps {
     id: any,
 };
 
-interface contentProps { 
-    active: boolean,
-};
-
 export const TabsLayout = styled.section`
     display: flex;
     align-items: baseline;
